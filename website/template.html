@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="utf-8" />
+<TITLE>Cryptopia Home: Welcome</Title>
 
 <style>
-body {
+div.background {
    background-image: url("images/crpt001.png");
    background-position: top center;
    background-size: contain;
    background-repeat: no-repeat;
-   background-color: #000000;
-   color: #FFFFFF;
-   text-shadow: 1px 1px gray;
+   background-color: #000000;}
+
+
+div.transbox {
+    margin: 3px;
+    background-color: #ffffff;
+    border: 40px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    font-weight: bold;
+    text-shadow: 1px 1px green;
+    color: #000000;
 }
 
 link : {color: #00FF00;}
 vlink : {color: #00AF00;}
 </style>
-
-<head>
-<meta charset="utf-8" />
-<TITLE>Cryptopia Home: Welcome</Title>
 </head>
+
 <body>
-<h1 align=center>Welcome to Cryptopia</h1>
-<img src="bar1s.jpg" width=73 height=22 alt="tech page">
+<div class="background">
+  <div class="transbox">
+<p>
+<h1 align=center><p>Welcome to Cryptopia</h1>
+<p><img src="bar1s.jpg" width=73 height=22 alt="tech page">
 <a href="def.htm"><img src="bar2u.jpg" width=157 height=22 alt="definitions of terms" border=0></a>
 <a href="howto.htm"><img src="bar3u.jpg" width=50 height=22 alt="how to" border=0></a>
 <a href="browsers.htm"><img src="bar4u.jpg" width=60 height=22 alt="reviews" border=0></a>
@@ -31,29 +46,29 @@ vlink : {color: #00AF00;}
 <a href="tutors.htm"><img src="bar7u.jpg" width=42 height=22 alt="tutors" border=0></a>
 <a href="trravsta.htm"><img src="bar8u.jpg" width=42 height=22 alt="zones" border=0></a>
 <HR>
-<h3>TO SUBSCRIBE TO THE VILLAGE LIST</h3>
-<ul><li><em>Subscribing</em> - Send a message to : majordomo@ianpc.ils.nwu.edu<br>
+<h3><p>TO SUBSCRIBE TO THE VILLAGE LIST</h3>
+<ul><li><p><em>Subscribing</em> - Send a message to : majordomo@ianpc.ils.nwu.edu<br>
 In the message body, put : subscribe village</li>
-<li><em>Unsubscribing</em> - Send a message to : majordomo@ianpc.ils.nwu.edu<br>
+<li><p><em>Unsubscribing</em> - Send a message to : majordomo@ianpc.ils.nwu.edu<br>
 In the message body, put : unsubscribe village</li>
-<li><em>Sending messages</em> - Send your message to : village@ianpc.ils.nwu.edu<br>
+<li><p><em>Sending messages</em> - Send your message to : village@ianpc.ils.nwu.edu<br>
 </ul>
 <hr>
-<h2><IMG SRC="32x32_an.gif" width=32 height=32 alt="VRML!">The VC Project</h2>
-<p><ul>
-<li><a href="def.htm">Definitions Of Terminology</a> -<br>
+<h2><p><IMG SRC="32x32_an.gif" width=32 height=32 alt="VRML!">The VC Project</h2>
+<ul>
+<li><p><a href="def.htm">Definitions Of Terminology</a> -<br>
 Some of the terms used in discussions about Terra Vista
-<li><a href="howto.htm">How To Build a Terra Vista Home World (draft 0.5)</a> -<br>
+<li><p><a href="howto.htm">How To Build a Terra Vista Home World (draft 0.5)</a> -<br>
 A primer from David George for those building new homes
-<li><a href="tutorial/tutproto.htm">A VRML Tutorial</a> -<br>
+<li><<p>a href="tutorial/tutproto.htm">A VRML Tutorial</a> -<br>
 A proposed framework for creating VRML tutorials from David George
-<li><a href="http://www.onlive.com/extensions.htm">OnLive! Extensions</a> -<br>
+<li><p><a href="http://www.onlive.com/extensions.htm">OnLive! Extensions</a> -<br>
 How to add OnLive! extensions to your VRML 1.0 world. Please Note:
 In the OnLive_Server node, the dns name of the OnLive! Community Server 
 for TerraVista is "terravista.onlive.com".
-<li><a href="blacksun.htm">BlackSun Extensions</a> -<br>
+<li><p><a href="blacksun.htm">BlackSun Extensions</a> -<br>
 Adding BlackSun extensions to your VRML 1.0 world.
-<li><a href="browsers.htm">Browser Reviews By David George</a> -<br>
+<li><p><a href="browsers.htm">Browser Reviews By David George</a> -<br>
 Although the pesky LOD bug has long been fixed in most browsers, a few bugs/inconsistancies
 still exist in some of the Beta versions of VRML browsers (life on the bleeding
 edge). David George has reviewed a majority of the more popular browsers here, and
@@ -72,7 +87,7 @@ this list are the first VRML 2.0 teachers on the Web!
 </ul>
 <hr>
 <h3>The VRML Bookshelf</h3>
-<p>There are a couple people who have already reviewed some VRML books, and
+There are a couple people who have already reviewed some VRML books, and
 I'll leave this job to them.  So far, I've only found two pages that have VRML
 book reviews -
 <ul><li><a href="http://magazine.cyberiacafe.net/issue-1.1/reviews/reviews6.html">http://magazine.cyberiacafe.net/issue-1.1/reviews/reviews6.html</a>
@@ -102,6 +117,8 @@ technology and issues.
 <hr>
 <p align=center><small>Please forgive the incompleteness of what I've got so far.  If you've
 got some info that's missing here, or you'd like to see something added, 
-please drop me a line at <a href="mailto:jcvonrosen@voyager.net">jcvonrosen@voyager.net</a>
+please drop me a line at <a href="mailto:jcvonrosen@voyager.net">jcvonrosen@voyager.net</a></p>
+  </div>
+</div>
 </body>
 </html>
