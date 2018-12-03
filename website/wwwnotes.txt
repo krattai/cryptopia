@@ -1,31 +1,16 @@
-<VirtualHost *:80>
-	ServerAdmin webmaster@localhost
+The following references have been used to help create a simple, generic, and easy to update site:
 
-	DocumentRoot /var/www
-	<Directory />
-		Options FollowSymLinks
-		AllowOverride None
-	</Directory>
-	<Directory /var/www/>
-		Options Indexes FollowSymLinks MultiViews
-		AllowOverride None
-		Order allow,deny
-		allow from all
-	</Directory>
+https://www.w3schools.com/tags/att_font_color.asp
+https://www.w3schools.com/css/css_text.asp
+https://htmlcolorcodes.com/tutorials/css-text-color/
+https://www.computerhope.com/issues/ch000072.htm
+https://www.w3schools.com/cssref/css3_pr_background-size.asp
+https://css-tricks.com/snippets/css/transparent-background-images/
+https://www.w3schools.com/css/css_image_transparency.asp
+https://stackoverflow.com/questions/4183948/css-set-background-image-with-opacity
+https://www.w3schools.com/cssref/pr_pos_z-index.asp
+https://www.w3schools.com/html/html_css.asp
+https://www.w3schools.com/cssref/pr_background-image.asp
+https://css-tricks.com/almanac/properties/b/background-image/
+https://stackoverflow.com/questions/9262861/css-background-image-to-fit-width-height-should-auto-scale-in-proportion/9265035
 
-	ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
-	<Directory "/usr/lib/cgi-bin">
-		AllowOverride None
-		Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
-		Order allow,deny
-		Allow from all
-	</Directory>
-
-	ErrorLog ${APACHE_LOG_DIR}/error.log
-
-	# Possible values include: debug, info, notice, warn, error, crit,
-	# alert, emerg.
-	LogLevel warn
-
-	CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
