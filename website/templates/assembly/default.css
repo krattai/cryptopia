@@ -55,7 +55,7 @@
 	{
 		overflow: hidden;
 		margin: 0em auto;
-		width: 1200px;
+		width: 100%;
 	}
 	
 /*********************************************************************************/
@@ -200,7 +200,7 @@
 	.box3,
 	.box4
 	{
-		width: 235px;
+		width: 23%;
 	}
 	
 	.box1,
@@ -224,7 +224,7 @@
 	.boxB,
 	.boxC
 	{
-		width: 384px;
+		width: 31%;
 	}
 
 	.boxA,
@@ -246,7 +246,7 @@
 	.tbox1,
 	.tbox2
 	{
-		width: 575px;
+		width: 48%%;
 	}
 	
 	.tbox1
@@ -339,7 +339,7 @@
 	#menu
 	{
 		position: absolute;
-		top: 4.5em;
+		top: 0.5em;
 		right: 0;
 	}
 	
@@ -487,7 +487,7 @@
 	
 	#welcome .container
 	{
-		width: 1000px;
+		width: 80%;
 		padding: 0px 100px;
 		color: rgba(255,255,255,0.8);
 	}
