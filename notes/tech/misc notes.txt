@@ -1,0 +1,32 @@
+test for protocol 41 pass through -> nmap -sO -p 1,6,17,41 hostname
++ from : https://forums.he.net/index.php?topic=3686.0
+
+Check for vuln / open ports -> https://www.grc.com/x/ne.dll?rh1dkyd2
+
+check 4 and 6 IPs -> https://www.whatismyip.com/
+
+Ubiquiti radios will allow IPv6 allocation but will not pass IPv6 packets unless PtP ubiquiti is set wireless WDS
+
+https://superuser.com/questions/1135757/scanning-in-ipv6
+
+ping6 2001:470:313b:dead::1
+
+traceroute6 irc6.oftc.net
+
+ping6 -I he-ipv6 irc6.oftc.net
+
+nmap -6 2001:470:313b:dead::1
+
+sudo nmap -6 -Pn 2001:470:313b:dead:d222:beff:feb9:2b1e
+
+ip -6 address list
+
+ping6 -I wlan0 ff02::1
+
+ping -c 1000 -i 300 -a 8.8.8.8
+
+ping6 -c 1000 -i 300 -a google.com
+
+radvd man -> https://www.systutorials.com/docs/linux/man/5-radvd/ and https://manpages.debian.org/unstable/radvd/radvd.conf.5.en.html
+
+Reference for deb dist config of IPv6 and HE -> https://chronos-tachyon.net/reference/debian-ipv6-and-hurricane-electric/ (also printed as pdf and stored to folder; cc4by)
