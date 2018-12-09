@@ -1,0 +1,11 @@
+Ran into a few problems during ipv6 setup.
+
+First, had problems configuring he broker because behind router.  Needed to config local to be internal ip of ipv6 host rather than public ipv4
+
+had some other, minor radvd problems which were fixed with simple web searching
+
+a major problem that was not immediately understood, which caused distractions searching for unrelated problems, was that the link was not fully transparent on wireless using ubiquiti radios.  therefore, ipv6 not routing across link properly.  finally realized that problem and rectified by creating ptp with ubuquiti equipment and using WDS as only solution other than getting rid of link path completely
+
+ongoing issue that link drops and host dropping ipv6 routing.  need to restart radvd at those times.
+
+other issues still be watched
