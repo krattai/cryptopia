@@ -1,3 +1,2 @@
-# cryptopia - tech notes
-The tech.txt file contains tech notes on the proposed device
-
+# cryptopia - notes
+This folder contains cryptopia notes
