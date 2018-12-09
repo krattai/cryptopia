@@ -1,0 +1,1002 @@
+ 1022  touch ctrl/reboot
+ 1023  ifconfig
+ 1024  ps -au root | grep rad
+ 1025  sudo service radvd stop
+ 1026  ps -au root | grep rad
+ 1027  ping6 google.com
+ 1028  touch ctrl/reboot
+ 1029  ifconfig
+ 1030  exit
+ 1031  ifconfig
+ 1032  touch ctrl/reboot
+ 1033  ifconfig
+ 1034  ls -al scripts
+ 1035  ls -al .scripts
+ 1036  nano hrtbt.sh
+ 1037  nano .scripts/hrtbt.sh
+ 1038  nano .scripts/inetup.sh
+ 1039  ls -al /sys/class/net
+ 1040  ls -al /sys/class/net/sixxs
+ 1041  nano .scripts/inetup.sh
+ 1042  exit
+ 1043  ifconfig
+ 1044  touch ctrl/reboot
+ 1045  ping6 google.com
+ 1046  exit
+ 1047  ssh kevin@srvr-via00.local
+ 1048  exit
+ 1049  sudo service radvd restart
+ 1050  ifconfig
+ 1051  exit
+ 1052  sudo service radvd restart
+ 1053  exit
+ 1054  sudo service radvd restart
+ 1055  exit
+ 1056  sudo service radvd restart
+ 1057  exit
+ 1058  sudo service radvd restart
+ 1059  exit
+ 1060  sudo service radvd restart
+ 1061  exit
+ 1062  ifconfig
+ 1063  touch ctrl/reboot
+ 1064  cat .scripts/pub.sh
+ 1065  cat .scripts/inetup.sh
+ 1066  exit
+ 1067  sudo service radvd restart
+ 1068  exit
+ 1069  sudo service radvd restart
+ 1070  exit
+ 1071  sudo service radvd restart
+ 1072  exit
+ 1073  sudo service radvd restart
+ 1074  exit
+ 1075  sudo service radvd restart
+ 1076  exit
+ 1077  sudo service radvd restart
+ 1078  exit
+ 1079  sudo service radvd restart
+ 1080  exit
+ 1081  sudo service radvd restart
+ 1082  ifconfig
+ 1083  df -h
+ 1084  touch ctrl/reboot
+ 1085  ifconfig
+ 1086  exit
+ 1087  ping6 google.com
+ 1088  sudo service radvd restart
+ 1089  exit
+ 1090  sudo service radvd restart
+ 1091  exit
+ 1092  sudo service radvd restart
+ 1093  exit
+ 1094  sudo service radvd restart
+ 1095  ps ax | grep sh
+ 1096  cat pub.sh
+ 1097  cat scripts/pub.sh
+ 1098  ps ax | grep rad
+ 1099  ifconfig
+ 1100  ls -al .scripts
+ 1101  ls -al scripts
+ 1102  cat scripts/pub.sh
+ 1103  cat .scripts/pub.sh
+ 1104  cat scripts/isbu.sh
+ 1105  cat scripts/isbub.sh
+ 1106  cat scripts/isub.sh
+ 1107  cat .scripts/inetup.sh
+ 1108  ps -A | grep radvd | egrep -v "grep|$(basename $0)" | grep -c radvd
+ 1109  dash
+ 1110  ps ax | grep rad
+ 1111  cat /var/log/messages | tail
+ 1112  cat /var/log/messages | tail -100
+ 1113  man tail
+ 1114  cat /var/log/messages | tail -n 100
+ 1115  cat /var/log/messages | tail -n=100
+ 1116  cat /var/log/messages | tail -n=20
+ 1117  cat /var/log/messages | tail -n 20
+ 1118  ls -al /var/logs
+ 1119  ls -al /var/log
+ 1120  cat /var/log/messages.1 | tail -n 100
+ 1121  ps ax | grep rad
+ 1122  sudo service radvd restart
+ 1123  ps ax | grep rad
+ 1124  radvdump
+ 1125  sudo radvdump
+ 1126  sudo service radvd restart
+ 1127  sudo radvdump
+ 1128  exit
+ 1129  crontab -e
+ 1130  exit
+ 1131  ls -al scripts
+ 1132  cp scripts/pub.sh scripts/rerad.sh
+ 1133  ls -al scripts
+ 1134  nano scripts/rerad.sh
+ 1135  crontab -e
+ 1136  exit
+ 1137  ls -al /home/pi/scripts
+ 1138  crontab -e
+ 1139  /home/pi/scripts/rerad.sh
+ 1140  nano scripts/rerad.sh
+ 1141  exit
+ 1142  ssh kevin@quad00.local
+ 1143  ssh kevin@uvea-nas0.local
+ 1144  ssh kevin@uvea-nas00.local
+ 1145  ssh kevin@srvr-viao00.local
+ 1146  ssh kevin@srvr-via00.local
+ 1147  ifconfig
+ 1148  exit
+ 1149  ssh kevin@uvea-srvr.local
+ 1150  exit
+ 1151  ifconfig
+ 1152  ps ax } grep sh
+ 1153  ps ax | grep sh
+ 1154  cat .scripts/rerad.sh
+ 1155  cat scripts/rerad.sh
+ 1156  ls -al scipts
+ 1157  ls -al scripts
+ 1158  crontab -e
+ 1159  scripts/rerad.sh
+ 1160  ps ax
+ 1161  exit
+ 1162  scripts/rerad.sh
+ 1163  exit
+ 1164  scripts/rerad.sh
+ 1165  crontab -e
+ 1166  nano scripts/rerad.sh
+ 1167  nano .scripts/pub.sh
+ 1168  nano scripts/rerad.sh
+ 1169  exit
+ 1170  ls -al scripts
+ 1171  ps ax | grep sh
+ 1172  cat scripts/rerad.sh
+ 1173  nano scripts/rerad.sh
+ 1174  exit
+ 1175  touch ctrl/reboot
+ 1176  ls -al scripts
+ 1177  ls -al .scripts
+ 1178  exit
+ 1179  ls -al
+ 1180  exit
+ 1181  scripts/rerad.sh
+ 1182  exit
+ 1183  ifconfig
+ 1184  ping 10.8.0.1
+ 1185  ping 10.8.0.18
+ 1186  exit
+ 1187  sudo service openvpn restart
+ 1188  exit
+ 1189  ifconfig
+ 1190  exit
+ 1191  ps ax 
+ 1192  ps ax | grep sh
+ 1193  touch ctrl/reboot
+ 1194  ifconfig
+ 1195  ps -A | grep radvd | egrep -v "grep|$(basename $0)" | grep -c radvd
+ 1196  sudo nano /etc/radvd.conf
+ 1197  sudo nano /etc/network/interfaces
+ 1198  touch ctrl/reboot
+ 1199  ifconfig
+ 1200  exit
+ 1201  ls -al
+ 1202  ls -al scripts
+ 1203  cp scripts/pub.sh scripts/soc_pub.sh
+ 1204  ls -al scripts
+ 1205  nano scripts/soc_pub.sh
+ 1206  scripts/soc_pub.sh &
+ 1207  ps ax | grep sh
+ 1208  exit
+ 1209  ls -al
+ 1210  df -h
+ 1211  exit
+ 1212  ps ax | grep sh
+ 1213  ps -A | grep radvd | egrep -v "grep|$(basename $0)" | grep -c radvd
+ 1214  ifconfig
+ 1215  scripts/rerad.sh
+ 1216  exit
+ 1217  ssh pi@10.8.0.14
+ 1218  ls -al .ssh/known_hosts
+ 1219  nano .ssh/known_hosts
+ 1220  ssh pi@10.8.0.14
+ 1221  exit
+ 1222  ls -al .scripts
+ 1223  nano .scripts/startup.sh
+ 1224  exit
+ 1225  scripts/rerad.sh
+ 1226  ps -A | grep radvd | egrep -v "grep|$(basename $0)" | grep -c radvd
+ 1227  exit
+ 1228  ps -A | grep radvd | egrep -v "grep|$(basename $0)" | grep -c radvd
+ 1229  ls -al scripts
+ 1230  cronttab -e
+ 1231  crontab -e
+ 1232  scripts/rerad.sh
+ 1233  exit
+ 1234  ifconfig
+ 1235  exit
+ 1236  scripts/rerad.sh
+ 1237  ssh kevin@quad00.local
+ 1238  ssh kevin@small-srvr.local
+ 1239  exit
+ 1240  scripts/rerad.sh
+ 1241  exit
+ 1242  ssh 10.8.0.46
+ 1243  exit
+ 1244  ssh 10.8.0.46
+ 1245  exit
+ 1246  ls -al scripts
+ 1247  ps ax | grep sh
+ 1248  free
+ 1249  top
+ 1250  exit
+ 1251  scripts/rerad.sh
+ 1252  exit
+ 1253  ifconfig
+ 1254  ping6 google.com
+ 1255  touch ctrl/reboot
+ 1256  ifconfig
+ 1257  exit
+ 1258  ls -al scripts
+ 1259  cat scripts/soc_pub.sh
+ 1260  ps ax | grep sh
+ 1261  exit
+ 1262  ps ax | grep sh
+ 1263  sudo kill 18277
+ 1264  ps ax | grep sh
+ 1265  ls -al scripts
+ 1266  cat scripts/soc_pub.sh
+ 1267  scripts/soc_pub.sh
+ 1268  ping uveais.ca
+ 1269  nano scripts/soc_pub.sh
+ 1270  scripts/soc_pub.sh
+ 1271  ps ax | grep sh
+ 1272  sudo kill 19313
+ 1273  ps ax | grep sh
+ 1274  scripts/soc_pub.sh &
+ 1275  ps ax | grep sh
+ 1276  exit
+ 1277  ifconfig
+ 1278  exit
+ 1279  ifconfig
+ 1280  scripts/rerad.sh
+ 1281  exit
+ 1282  scripts/rerad.sh
+ 1283  exit
+ 1284  ssh idet-06.local
+ 1285  ssh idet008.local
+ 1286  ssh idet009.local
+ 1287  exit
+ 1288  scripts/rerad.sh
+ 1289  exit
+ 1290  cat /proc/cpuinfo | grep 'Revision' | awk '{print $3}' | sed 's/^1000//'
+ 1291  nano .scripts/chkver.sh
+ 1292  chmod 755 .scripts/chkver.sh
+ 1293  .scripts/chkver.sh
+ 1294  chmod 755 .scripts/chkver.sh
+ 1295  nano .scripts/chkver.sh
+ 1296  ls -al .scripts
+ 1297  cat .scripts/chanwtch.sh
+ 1298  cat .scripts/ctrlwtch.sh
+ 1299  nano .scripts/chkver.sh
+ 1300  .scripts/chkver.sh
+ 1301  nano .scripts/chkver.sh
+ 1302  ls -al
+ 1303  rm .p1
+ 1304  ls -al
+ 1305  .scripts/chkver.sh
+ 1306  ifconfig
+ 1307  exit
+ 1308  ssh 10.8.0.26
+ 1309  ifconfig
+ 1310  ls -al .scripts
+ 1311  nano .scripts/pub.sh
+ 1312  nano .scripts/msgrec.sh
+ 1313  chmod 755 .scripts/msgrec.sh
+ 1314  nano .scripts/startup.sh
+ 1315  .scripts/msgrec.sh &
+ 1316  ps ax | grep sh
+ 1317  .scripts/pub.sh &
+ 1318  exit
+ 1319  ls -al scripts
+ 1320  ls -al .scripts
+ 1321  exit
+ 1322  scripts/rerad.sh
+ 1323  exit
+ 1324  scripts/rerad.sh
+ 1325  exit
+ 1326  scripts/rerad.sh
+ 1327  exit
+ 1328  scripts/rerad.sh
+ 1329  exit
+ 1330  scripts/rerad.sh
+ 1331  cat scripts/rerad.sh
+ 1332  ping ihdn.ca
+ 1333  mosquitto_pub -d -t ihdn/alive -m "*** $(date) : $hostn restarting radvd. ***" -h "ihdn.ca"
+ 1334  exit
+ 1335  nano .scripts/msgrec.sh
+ 1336  touch ctrl/reboot
+ 1337  ps ax | grep sh
+ 1338  sudo kill 2900
+ 1339  ps ax | grep sh
+ 1340  sudo kill 2891
+ 1341  /run/shm/soc_pub.sh &
+ 1342  /run/shm/scripts/soc_pub.sh &
+ 1343  ls -al /run/shm/scripts
+ 1344  scripts/soc_pub.sh &
+ 1345  ps ax | grep sh
+ 1346  sudo kill 2906
+ 1347  ps ax | grep sh
+ 1348  scripts/msg_rec_pub.sh
+ 1349  .scripts/msg_rec_pub.sh
+ 1350  scripts/msg_rec.sh
+ 1351  .scripts/msg_rec.sh
+ 1352  ls -al scripts
+ 1353  ls -al .scripts
+ 1354  cat .scripts/msgrec.sh
+ 1355  nano .scripts/msgrec.sh
+ 1356  cat .scripts/msgrec.sh
+ 1357  ls -al scripts
+ 1358  ls -al .scripts
+ 1359  exit
+ 1360  scripts/msgrec.sh
+ 1361  .scripts/msgrec.sh
+ 1362  ls -al scripts
+ 1363  ls -al .scripts
+ 1364  exitexit
+ 1365  exit
+ 1366  ssh 10.8.0.18
+ 1367  exit
+ 1368  scripts/rerad.sh
+ 1369  exit
+ 1370  scripts/rerad.sh
+ 1371  exit
+ 1372  ls -al scripts
+ 1373  ps ax | grep sh
+ 1374  cat scripts/soc_pub.sh
+ 1375  ps ax | grep sh
+ 1376  cat scripts/startup.sh
+ 1377  ls -al scripts
+ 1378  ls -al .scripts
+ 1379  cat .scripts/startup.sh
+ 1380  scripts/soc_pub.sh &
+ 1381  ps ax | grep sh
+ 1382  exit
+ 1383  ps ax | grep sh
+ 1384  cat scripts/soc_pub.sh
+ 1385  exit
+ 1386  ps ax | grep sh
+ 1387  ps ax | grep py
+ 1388  ls -al scripts
+ 1389  cat scripts/soc_pub.sh
+ 1390  exit
+ 1391  scripts/rerad.sh
+ 1392  exit
+ 1393  scripts/rerad.sh
+ 1394  exit
+ 1395  scripts/rerad.sh
+ 1396  exit
+ 1397  ssh 10.8.0.78
+ 1398  exit
+ 1399  ps ax | grep sh
+ 1400  ls -al scripts
+ 1401  ls -al ctrl
+ 1402  ls -al .scripts
+ 1403  .scripts/msgrec.sh &
+ 1404  exit
+ 1405  ps ax | grep sh
+ 1406  cat .scripts/msgrec.sh
+ 1407  scripts/rerad.sh
+ 1408  exit
+ 1409  scripts/rerad.sh
+ 1410  exit
+ 1411  scripts/rerad.sh
+ 1412  touch ctrl/reboot
+ 1413  scripts/rerad.sh
+ 1414  exit
+ 1415  scripts/rerad.sh
+ 1416  ifconfig
+ 1417  exit
+ 1418  scripts/rerad.sh
+ 1419  exit
+ 1420  scripts/rerad.sh
+ 1421  exit
+ 1422  scripts/rerad.sh
+ 1423  exit
+ 1424  ps ax | grep sh
+ 1425  cat ,scripts/msgrec.sh
+ 1426  cat .scripts/msgrec.sh
+ 1427  ps ax | grep sh
+ 1428  ls -al .scripts
+ 1429  ls -al scripts
+ 1430  cat scripts/soc_pub.sh
+ 1431  ps ax | grep sh
+ 1432  touch ctrl/reboot
+ 1433  scripts/rerad.sh
+ 1434  exit
+ 1435  scripts/rerad.sh
+ 1436  exit
+ 1437  ssh idet010.local
+ 1438  ssh idet008.local
+ 1439  exit
+ 1440  ssh pi@idet009.local
+ 1441  ssh pi@idet014.local
+ 1442  ssh pi@idet013.local
+ 1443  ssh kevin@quad00.local
+ 1444  ssh kevin@srvr-via0.local
+ 1445  ssh kevin@srvr-via00.local
+ 1446  exit
+ 1447  ssh pi@idet014.local
+ 1448  exit
+ 1449  ps ax
+ 1450  ps ax | grep sh
+ 1451  df -h
+ 1452  exit
+ 1453  ps ax | grep sh
+ 1454  cat scripts/soc_pub.sh
+ 1455  ps ax
+ 1456  ps ax mosq
+ 1457  ps ax | grep mosq
+ 1458  exit
+ 1459  ps ax | grep mosq
+ 1460  sudo kill 2866
+ 1461  ps ax | grep mosq
+ 1462  exit
+ 1463  ps ax | grep mosq
+ 1464  sudo kill 5215
+ 1465  ps ax | grep mosq
+ 1466  ls -al scripts
+ 1467  nano scripts/soc_pub.sh
+ 1468  nano scripts/isub.sh
+ 1469  exit
+ 1470  touch ctrl/reboot
+ 1471  ps ax | grep mosq
+ 1472  nano scripts/soc_pub.sh
+ 1473  ps ax | grep sh
+ 1474  nano scripts/soc_pub.sh
+ 1475  crontab -l
+ 1476  ls -al scripts
+ 1477  exit
+ 1478  cat scripts/soc_pub.sh
+ 1479  exit
+ 1480  ifconfig
+ 1481  ps ax | grep sh
+ 1482  sudo service radvd restart
+ 1483  ps ax | grep mosq
+ 1484  ls -al
+ 1485  exit
+ 1486  ifconfig
+ 1487  ping6 google.com
+ 1488  ping google.com
+ 1489  touch ctrl/reboot
+ 1490  ping6 google.com
+ 1491  exit
+ 1492  ssh idet-13.local
+ 1493  ssh idet-14.local
+ 1494  ssh idetab12.local
+ 1495  free
+ 1496  df -h
+ 1497  ls -al
+ 1498  sudo service radvd restart
+ 1499  ssh idetab12.local
+ 1500  exit
+ 1501  ps ax | grep mosq
+ 1502  ps ax | grep sh
+ 1503  ls -al scripts
+ 1504  scripts/soc_pub.sh
+ 1505  scripts/soc_pub.sh &
+ 1506  ps ax | grep mosq
+ 1507  ps ax | grep sh
+ 1508  exit
+ 1509  sudo service radvd restart
+ 1510  ifconfig
+ 1511  df -h
+ 1512  ls -al
+ 1513  exit
+ 1514  ssh kevin@srvr-via00.local
+ 1515  exit
+ 1516  ps ax | grep sh
+ 1517  exit
+ 1518  ssh kevin@quad00.local
+ 1519  ssh idetab10.local
+ 1520  ls -al
+ 1521  sudo service radvd restart
+ 1522  ssh vicche0.local
+ 1523  exit
+ 1524  ssh pi@vicche0.local
+ 1525  ls -al scripts
+ 1526  ls -al .scripts
+ 1527  ssh pi@vicche0.local
+ 1528  exit
+ 1529  ftp
+ 1530  ssh idet007.local
+ 1531  exit
+ 1532  ssh idet007.local
+ 1533  exit
+ 1534  date
+ 1535  crontab -e
+ 1536  sudo apt-get update
+ 1537  sudo apt-get install ntpdate
+ 1538  crontab -l
+ 1539  date
+ 1540  exit
+ 1541  ssh kevin@uveasrvr-0.local
+ 1542  ssh kevin@uvea-srvr0.local
+ 1543  ssh srvr-via00.local
+ 1544  ssh kevin@srvr-via00.local
+ 1545  exit
+ 1546  sudo service radvd restart
+ 1547  ssh kevin@quad00.local
+ 1548  exit
+ 1549  ls -al
+ 1550  df -h
+ 1551  ifconfig
+ 1552  ping -c 100 google.ca
+ 1553  ping 8.8.8.8
+ 1554  ls -al ad
+ 1555  ls -al mp4
+ 1556  cd mp4
+ 1557  wget http://ihdn.ca/ad/flfkjadsfj.mp4
+ 1558  exit
+ 1559  ps ax | grep sh
+ 1560  cat pub.sh
+ 1561  cat .scripts/pub.sh
+ 1562  ping6 google.com
+ 1563  exit
+ 1564  ssh idet007.local
+ 1565  ssh small-srvr.local
+ 1566  ssh kevin@small-srvr.local
+ 1567  exit
+ 1568  ps ax | grep sh
+ 1569  cat scripts/soc_pub.sh
+ 1570  ssh kevin@10.8.0.14
+ 1571  exit
+ 1572  ps ax | grep sh
+ 1573  touch ctrl/reboot
+ 1574  ps ax | grep sh
+ 1575  cat scripts/msgrec.sh
+ 1576  ls -al scripts
+ 1577  cat scripts/soc_pub.sh
+ 1578  ping ihdn.ca
+ 1579  cat scripts/soc_pub.sh
+ 1580  ps ax | grep sh
+ 1581  cat .scripts/startup.sh
+ 1582  ps ax | grep sh
+ 1583  utime
+ 1584  scripts/soc_pub.sh
+ 1585  scripts/soc_pub.sh &
+ 1586  ps ax | grep sh
+ 1587  touch ctrl/reboot
+ 1588  ssh srvr-via00.local
+ 1589  ssh kevin@srvr-via00.local
+ 1590  exit
+ 1591  ssh quad00.local
+ 1592  ssh kevin@quad00.local
+ 1593  exit
+ 1594  ssh kevin@quad0.local
+ 1595  ssh kevin@quad00.local
+ 1596  exit
+ 1597  ps ax | grep sh
+ 1598  ls -al scripts
+ 1599  ls -al .scripts
+ 1600  crontab -l
+ 1601  ls -al inetup.sh
+ 1602  ls -al .scripts
+ 1603  cat .scripts/inetup.sh
+ 1604  exit
+ 1605  ping 24.76.88.172
+ 1606  exit
+ 1607  ssh idetab14.local
+ 1608  ssh kevin@quad00.local
+ 1609  exit
+ 1610  ssh idet-14.local
+ 1611  nmap
+ 1612  ssh quad00.local
+ 1613  ssh kevin@quad00.local
+ 1614  ssh 192.168.128.103
+ 1615  ssh 192.168.128.105
+ 1616  ssh 192.168.128.106
+ 1617  ssh kevin@192.168.128.106
+ 1618  ssh 192.168.128.160
+ 1619  ssh kevin@192.168.128.106
+ 1620  ssh kevin@quad00.local
+ 1621  ssh idet-13.local
+ 1622  ssh wavmitz0.local
+ 1623  exit
+ 1624  ssh kevin@quad00.local
+ 1625  exit
+ 1626  ssh 10.8.0.22
+ 1627  exit
+ 1628  ssh kevin@srvr-via00.local
+ 1629  exit
+ 1630  ifconfig
+ 1631  ssh idethd14
+ 1632  ssh idethd14.local
+ 1633  exit
+ 1634  wget https://github.com/krattai/AEBL/raw/master/broker/host/install.sh
+ 1635  ls -al
+ 1636  chmod 755 install.sh
+ 1637  install.sh
+ 1638  ./install.sh
+ 1639  ls -al /etc/openvpn
+ 1640  ps ax | grep sh
+ 1641  ls -al scripts
+ 1642  nano scripts/pub.sh
+ 1643  cat .scripts/inetup.sh
+ 1644  cat scripts/pub.sh
+ 1645  ps ax | grep sh
+ 1646  cat .scripts/pub.sh
+ 1647  nano .scripts/pub.sh
+ 1648  touch ctrl/reboot
+ 1649  ifconfig
+ 1650  exit
+ 1651  ifconfig
+ 1652  exit
+ 1653  cat /run/shm/scripts/pub.sh
+ 1654  ps ax | grep sh
+ 1655  .scripts/pub.sh
+ 1656  cat /run/shm/scripts/pub.sh
+ 1657  nano .scripts/pub.sh
+ 1658  touch ctrl/reboot
+ 1659  exit
+ 1660  ls -al ctrl
+ 1661  nano .scripts/pub.sh
+ 1662  cat /run/shm/scripts/pub.sh
+ 1663  mosquitto_pub -d -t uvea/alive -m "$(date) : $hostn tun44 $IPt44 is online." -h "ihdn.ca"
+ 1664  exit
+ 1665  ifconfig
+ 1666  touch ctrl/reboot
+ 1667  exit
+ 1668  nano .scripts/inetup.sh
+ 1669  cat .scripts/inetup.sh
+ 1670  nano .scripts/inetup.sh
+ 1671  touch ctrl/reboot
+ 1672  exit
+ 1673  ssh 10.8.0.42
+ 1674  ssh idet007.local
+ 1675  ssh idethd14.local
+ 1676  exit
+ 1677  ssh 10.8.0.42
+ 1678  ssh 10.8.0.38
+ 1679  ssh idethd14.local
+ 1680  ssh idet007.local
+ 1681  exit
+ 1682  ssh 10.8.0.38
+ 1683  exit'
+ 1684  exit
+ 1685  ssh 10.8.0.18
+ 1686  ssh kevin@quad00.local
+ 1687  exit
+ 1688  ssh 10.8.0.14
+ 1689  exit
+ 1690  ifconfig
+ 1691  ssh 10.8.0.58
+ 1692  df -h
+ 1693  ssh idet007.local
+ 1694  exit
+ 1695  ssh onq00.local
+ 1696  it
+ 1697  exit
+ 1698  ssh kevin@quad00.local
+ 1699  exit
+ 1700  ssh kevin@quad00.local
+ 1701  ifconfig
+ 1702  ssh kevin@quad00.local
+ 1703  exit
+ 1704  crontab -l
+ 1705  ssh 10.8.44.26
+ 1706  df -h
+ 1707  ps ax | grep sh
+ 1708  touch .scripts/pub.sh
+ 1709  nano .scripts/pub.sh
+ 1710  touch ctrl/reboot
+ 1711  exit
+ 1712  ssh kevin@quad0.local
+ 1713  ssh kevin@quad00.local
+ 1714  ifconfig
+ 1715  exit
+ 1716  ssh kevin@quad00.local
+ 1717  exit
+ 1718  ssh kevin@quad00.local
+ 1719  exit
+ 1720  ssh kevin@uvea-nas00.local
+ 1721  ls -al .scripts
+ 1722  ps ax | grep sh
+ 1723  nano scripts/pub.sh
+ 1724  nano .scripts/pub.sh
+ 1725  touch ctrl/reboot
+ 1726  exit
+ 1727  ssh kevin@quad00.local
+ 1728  ls -al
+ 1729  ifconfig
+ 1730  exit
+ 1731  ssh 10.8.0.26
+ 1732  exit
+ 1733  ps ax | grep sh
+ 1734  ls -al scripts
+ 1735  ps ax | grep py
+ 1736  exit
+ 1737  nano .scripts/chanwtch.sh
+ 1738  chmod 77 .scripts/chanwtch.sh
+ 1739  chmod 755 .scripts/chanwtch.sh
+ 1740  nano .scripts/startup.sh
+ 1741  touch ctrl/reboot
+ 1742  exxit
+ 1743  exit
+ 1744  nano .scripts/chanwtch.sh
+ 1745  touch ctrl/reboot
+ 1746  exit
+ 1747  ssh kevin@quad00.local
+ 1748  ssh kevin@small-srvr.local
+ 1749  ssh kevin@via-srvr0.local
+ 1750  ssh kevin@srvr-via0.local
+ 1751  ssh kevin@srvr-via00.local
+ 1752  exit
+ 1753  ps ax | grep sh
+ 1754  nano inetup.sh
+ 1755  nano scripts/inetup.sh
+ 1756  nano .scripts/inetup.sh
+ 1757  touch ctrl/reboot
+ 1758  exit
+ 1759  ifconfig
+ 1760  exit
+ 1761  ifconfig
+ 1762  exit
+ 1763  ps ax | grep sh
+ 1764  ps ax | grep py
+ 1765  exit
+ 1766  ls -al
+ 1767  ifconfig
+ 1768  exit
+ 1769  ifconfig
+ 1770  cd /etc/openvpn
+ 1771  ls -al
+ 1772  sudo mv client1.crt client1.crt.old
+ 1773  sudo mv client1.key client1.key.old
+ 1774  sudo mv client.conf client1.conf.old
+ 1775  cd ~
+ 1776  touch ctrl/reboot
+ 1777  exit
+ 1778  touch ctrl/halt
+ 1779  exit
+ 1780  ls -al /etc/network
+ 1781  cat /etc/network/interfaces
+ 1782  exit
+ 1783  ping reg.oss
+ 1784  exit
+ 1785  nmcli device show wlan0 | grep IP4.DNS
+ 1786  sudo apt-get install nmcli
+ 1787  cat /etc/network/interfaces
+ 1788  ifconfig
+ 1789  nslookup reg.oss
+ 1790  traceroute reg.oss
+ 1791  exit
+ 1792  ifconfig
+ 1793  ping 10.8.44.1
+ 1794  exit
+ 1795  ifconfig
+ 1796  ping 10.8.44.1
+ 1797  ssh 10.8.44.1
+ 1798  ssh kevin@10.8.44.1
+ 1799  exit
+ 1800  ping 10.8.44.1
+ 1801  ping 8.8.8.8
+ 1802  ping 199.101.56.46
+ 1803  ping 10.8.44.1
+ 1804  ssh sht@199.101.56.46 -p 222
+ 1805  ping 199.101.56.46
+ 1806  ping 10.8.44.1
+ 1807  ssh kevin@10.8.44.1
+ 1808  ssh 10.8.44.14
+ 1809  ssh kevin@10.8.44.1
+ 1810  ping 10.8.44.1
+ 1811  ssh aebltst0.local
+ 1812  nmap 10.8.44.0/24
+ 1813  ssh kevin@10.8.44.1
+ 1814  exit
+ 1815  ssh kevin@10.8.44.1
+ 1816  ping 10.8.44.1
+ 1817  ssh kevin@10.8.44.1
+ 1818  ping home.aebl
+ 1819  nmap 192.168.1.10
+ 1820  exit
+ 1821  ifconfig
+ 1822  exit
+ 1823  ssh /etc/network/interface
+ 1824  ls -al /etc/network/interfaces
+ 1825  sudo nano /etc/network/interfaces
+ 1826  sudo reboot
+ 1827  exit
+ 1828  ifconfig
+ 1829  ping6 2001:470:1f16:385::1
+ 1830  ping6 2001:470:1f16:385::2
+ 1831  sudo nano /etc/network/interfaces
+ 1832  sudo reboot
+ 1833  exit
+ 1834  ifconfig
+ 1835  sudo nano /etc/network/interfaces
+ 1836  sudo reboot
+ 1837  exit
+ 1838  ifconfig
+ 1839  sudo nano /etc/network/interfaces
+ 1840  sudo reboot
+ 1841  exit
+ 1842  ifconfig
+ 1843  exit
+ 1844  ifconfig
+ 1845  ping6 2001:470:1f16:385::2
+ 1846  ping6 2001:470:1f16:385::1
+ 1847  ping6 2001:470:1f16:385::2
+ 1848  exit
+ 1849  history
+ 1850  sudo nano /etc/radvd.conf
+ 1851  sudo service radvd restart
+ 1852  exit
+ 1853  ifconfig
+ 1854  ping6 2001:470:1f16:385::2
+ 1855  ping6 2001:470:1f16:385::1
+ 1856  exit
+ 1857  ifconfig
+ 1858  exit
+ 1859  sudo reboot
+ 1860  exit
+ 1861  sudo nano /etc/radvd.conf
+ 1862  sudo service radvd restart
+ 1863  sudo nano /etc/network/interfaces
+ 1864  sudo reboot
+ 1865  exit
+ 1866  sudo nano /etc/network/interfaces
+ 1867  sudo reboot
+ 1868  exit
+ 1869  ifconfig
+ 1870  ping6 google.com
+ 1871  sudo nano /etc/network/interfaces
+ 1872  ifconfig
+ 1873  sudo nano /etc/network/interfaces
+ 1874  sudo reboot
+ 1875  exit
+ 1876  ping6 google.com
+ 1877  ifconfig
+ 1878  ping6 2001:470:1f16:385::2
+ 1879  ping6 2001:470:1f16:385::1
+ 1880  ping6 google.com
+ 1881  sudo nano /etc/radvd.conf
+ 1882  cat /etc/radvd.conf
+ 1883  sudo nano /etc/radvd.conf
+ 1884  sudo service radvd restart
+ 1885  exit
+ 1886  ifconfig
+ 1887  exit
+ 1888  ifconfig
+ 1889  sudo service radvd restart
+ 1890  ifconfig
+ 1891  ping6 google.com
+ 1892  exit
+ 1893  sudo reboot
+ 1894  exit
+ 1895  ifconfig
+ 1896  ping6 google.com
+ 1897  ssh aebltst0.local
+ 1898  exit
+ 1899  ping6 google.com
+ 1900  ifconfig
+ 1901  sudo nano /etc/radvd.conf
+ 1902  ifconfig
+ 1903  sudo nano /etc/network/interfaces
+ 1904  ifconfig
+ 1905  netstat
+ 1906  ps ax
+ 1907  exit
+ 1908  ssh aebltst0.local
+ 1909  sudo nano /etc/radvd.conf
+ 1910  sudo service radvd restart
+ 1911  exit
+ 1912  ifconfig
+ 1913  ssh aebltst0.local
+ 1914  ping aebltst0.local
+ 1915  ssh aebltst0.local
+ 1916  exit
+ 1917  sudo systemctl status radvd
+ 1918  systenctl
+ 1919  systemctl
+ 1920  service --status all
+ 1921  service
+ 1922  service --status-all
+ 1923  service radvd
+ 1924  /etc/init.d/radvd status
+ 1925  ls -al /var/log
+ 1926  tail /var/log/syslog
+ 1927  cat /var/log/syslog
+ 1928  ls -al /var/log
+ 1929  exit
+ 1930  service --status-all
+ 1931  sudo nano /etc/radvd.conf
+ 1932  sudo service radvd restart
+ 1933  radvddump
+ 1934  radvdump
+ 1935  sudo radvdump
+ 1936  exit
+ 1937  ifconfig
+ 1938  exit
+ 1939  sudo systemctl status radvd
+ 1940  sudo apt-get install isc-dhcp-server
+ 1941  sudo apt-get update
+ 1942  sudo apt-get install isc-dhcp-server
+ 1943  sudo apt-get update
+ 1944  sudo apt-get install isc-dhcp-server
+ 1945  sudo apt-get update
+ 1946  sudo apt-get install isc-dhcp-server
+ 1947  sudo nano /etc/dhcp/dhcp6.conf
+ 1948  sudo /usr/sbin/dhcpd -6 -d -cf /etc/dhcp/dhcpd6.conf eth0
+ 1949  sudo nano /etc/dhcp/dhcp6.conf
+ 1950  sudo mv /etc/dhcp/dhcp6.conf /etc/dhcp/dhcpd6.conf
+ 1951  sudo /usr/sbin/dhcpd -6 -d -cf /etc/dhcp/dhcpd6.conf eth0
+ 1952  sudo nano /etc/dhcp/dhcpd6.conf
+ 1953  sudo /usr/sbin/dhcpd -6 -d -cf /etc/dhcp/dhcpd6.conf eth0
+ 1954  sudo touch /var/lib/dhcp/dhcpd6.leases
+ 1955  sudo chown dhcpd:dhcpd /var/lib/dhcp/dhcpd6.leases
+ 1956  sudo /usr/sbin/dhcpd -6 -d -cf /etc/dhcp/dhcpd6.conf eth0
+ 1957  cat /var/log/syslog
+ 1958  sudo service isc-dhcp-server6 restart
+ 1959  sudo service isc-dhcp-server6 start
+ 1960  sudo nano /etc/default/isc-dhcp-server
+ 1961  sudo sh -c "echo 'manual' > /etc/init/isc-dhcp-server.override"
+ 1962  sudo service isc-dhcp-server stop
+ 1963  sudo service isc-dhcp-server6 restart
+ 1964  sudo service isc-dhcp-server restart
+ 1965  cat /var/log/syslog
+ 1966  sudo nano /etc/init/isc-dhcp-server.override
+ 1967  sudo rm /etc/init/isc-dhcp-server.override
+ 1968  exit
+ 1969  cat /var/log/syslog
+ 1970  sudo service isc-dhcp-server restart
+ 1971  cat /var/log/syslog
+ 1972  sudo reboot
+ 1973  exit
+ 1974  cat /var/log/syslog
+ 1975  service --status-all
+ 1976  sudo service isc-dhcp-server restart
+ 1977  cat /var/log/syslog
+ 1978  exit
+ 1979  cat /var/log/syslog
+ 1980  cat /var/log/syslog | grep dhcpd
+ 1981  sudo nano /etc/init/isc-dhcp-server.conf
+ 1982  ls -al /etc/init/
+ 1983  ls -al /etc/init.d/
+ 1984  sudo nano /etc/init.d/isc-dhcp-server
+ 1985  sudo update-rc.d isc-dhcp-server
+ 1986  sudo update-rc.d isc-dhcp-server defaults
+ 1987  cat /var/log/syslog | grep dhcpd
+ 1988  exit
+ 1989  cat /var/log/syslog | grep dhcpd
+ 1990  ifconfig
+ 1991  ssh aebltst0.local
+ 1992  ping aebltst0.local
+ 1993  ifconfig
+ 1994  cat /var/log/syslog | grep dhcpd
+ 1995  cat /var/log/syslog
+ 1996  sudo nano /etc/dhcp/dhcpd6.conf
+ 1997  sudo nano /etc/default/isc-dhcp-server
+ 1998  sudo reboot
+ 1999  exit
+ 2000  date
+ 2001  cat /var/log/syslog | grep dhcpd
+ 2002  sudo nano /etc/network/interfaces
+ 2003  ifconfig
+ 2004  sudo nano /etc/default/isc-dhcp-server
+ 2005  sudo nano /etc/dhcp/dhcpd6.conf
+ 2006  cat /var/log/syslog | grep dhcpd
+ 2007  sudo service isc-dhcp-server stop
+ 2008  sudo service isc-dhcp-server restart
+ 2009  sudo service isc-dhcp-server stop
+ 2010  sudo service isc-dhcp-server restart
+ 2011  cat /var/log/syslog | grep dhcpd
+ 2012  sudo nano /etc/init.d/isc-dhcp-server
+ 2013  sudo nano /etc/default/isc-dhcp-server
+ 2014  sudo nano /etc/init.d/isc-dhcp-server
+ 2015  sudo service isc-dhcp-server stop
+ 2016  sudo /usr/sbin/dhcpd -6 -d -cf /etc/dhcp/dhcpd6.conf eth0
+ 2017  ifconfig
+ 2018  sudo /usr/sbin/dhcpd -6 -d -cf /etc/dhcp/dhcpd6.conf eth0
+ 2019  ifconfig
+ 2020  sudo service isc-dhcp-server stop
+ 2021  history
+pi@sixxs ~ $ 
+
