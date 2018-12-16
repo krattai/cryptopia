@@ -30,3 +30,15 @@ ping6 -c 1000 -i 300 -a google.com
 radvd man -> https://www.systutorials.com/docs/linux/man/5-radvd/ and https://manpages.debian.org/unstable/radvd/radvd.conf.5.en.html
 
 Reference for deb dist config of IPv6 and HE -> https://chronos-tachyon.net/reference/debian-ipv6-and-hurricane-electric/ (also printed as pdf and stored to folder; cc4by)
+
+dhcpd6 guide -> https://mirrors.deepspace6.net/Linux+IPv6-HOWTO/hints-daemons-isc-dhcp.html
+
+followed this guide / series for setting up ipv6 network:
+https://jochen.kirstaetter.name/configure-ipv6-on-ubuntu/
+https://jochen.kirstaetter.name/dhcpv6-ipv6-in-your-local-network/
+https://jochen.kirstaetter.name/enabling-dns-for-ipv6-infrastructure/
+https://jochen.kirstaetter.name/accessing-apache2-web-server-via-ipv6/
+
+good test site and information -> http://test-ipv6.com/
+
+

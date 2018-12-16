@@ -9,3 +9,7 @@ a major problem that was not immediately understood, which caused distractions s
 ongoing issue that link drops and host dropping ipv6 routing.  need to restart radvd at those times.
 
 other issues still be watched
+
+not convinced radvd is proper solution for implementation and would more likely prefer to use dhcpd6, contrary to many opinions -> https://serverfault.com/questions/297714/how-to-configure-radvd-dhcpd6-routing-and-64-subnet-based-on-delegated-prefix
+
+
